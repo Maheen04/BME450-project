@@ -7,7 +7,7 @@
   
 ## Project Description 
 Max 1/2 page, include:
-- what dateset we plan to use
+- what dataset we plan to use
 - goal of the project
 
 - Add references
