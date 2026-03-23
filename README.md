@@ -1,6 +1,7 @@
 # BME450-project
 # Title
-  Add title
+  MRI-Based Epilepsy Classification Using Convolutional Neural Networks
+  
 ## Team Members
   Maheen Syed (GitHubUserA), Myra Khare (@myrakhare)
   
