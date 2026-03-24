@@ -3,7 +3,7 @@
   MRI-Based Epilepsy Classification Using Convolutional Neural Networks
   
 ## Team Members
-  Maheen Syed (GitHubUserA), Myra Khare (@myrakhare)
+  Maheen Syed (@Maheen04), Myra Khare (@myrakhare)
   
 ## Project Description 
 
