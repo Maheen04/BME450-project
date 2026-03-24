@@ -18,7 +18,9 @@ Structural MRI scans can reveal anatomical abnormalities associated with epileps
 
 This project aims to develop a deep learning based approach using convolutional neural networks (CNNs) to automatically classify brain MRI scans as epileptic or non-epileptic, building on prior work showing that CNN-based models can discriminate temporal lobe epilepsy from other conditions using T1 weighted MRI. [3] 
 
-By leveraging MRI datasets, the model will learn to extract relevant structural features and provide a probabilistic prediction of epilepsy presence. The goal of the project is to create a reliable and scalable tool that supports clinical decision making, reduces diagnostic variability, and improves access to neurological care through automated image analysis. 
+By leveraging MRI datasets, the model will learn to extract relevant structural features and provide a probabilistic prediction of epilepsy presence. The goal of the project is to create a reliable and scalable tool that supports clinical decision making, reduces diagnostic variability, and improves access to neurological care through automated image analysis.
+
+To train and evaluate this model, we will use the OpenNeuro ds004199 dataset, a publicly available collection of structural T1-weighted MRI scans from epilepsy patients and healthy controls stored in BIDS format. [6] If additional data is needed to improve model generalizability, we will supplement with MRI data from the ENIGMA Epilepsy Consortium, a large multicenter dataset comprising over 2,000 epilepsy patients across multiple seizure types. [7]
 
 References 
 
@@ -31,3 +33,7 @@ References
 [4] F. Cendes, W. H. Theodore, B. H. Brinkmann, V. Sulc, and G. D. Cascino, “Neuroimaging of Epilepsy,” Handbook of clinical neurology, vol. 136, pp. 985–1014, 2016, doi: https://doi.org/10.1016/B978-0-444-53486-6.00051-X. Available: https://www.ncbi.nlm.nih.gov/pubmed/27430454 
 
 [5] H. Urbach, E. Kellner, N. Kremers, I. Blümcke, and T. Demerath, “MRI of Focal Cortical Dysplasia,” Neuroradiology, vol. 64, no. 3, pp. 443–452, Mar. 2022, doi: https://doi.org/10.1007/s00234-021-02865-x. Available: https://pubmed.ncbi.nlm.nih.gov/34839379/ 
+
+[6] F. Schuch et al., "An open presurgery MRI dataset of people with epilepsy and focal cortical dysplasia type II," Scientific Data, vol. 10, no. 1, p. 475, Jul. 2023, doi: 10.1038/s41597-023-02379-8. [Online]. Available: https://openneuro.org/datasets/ds004199
+
+[7] S. M. Sisodiya et al., "The ENIGMA-Epilepsy working group: Mapping disease from large data sets," Human Brain Mapping, vol. 43, no. 1, pp. 1–16, Jan. 2022, doi: 10.1002/hbm.25037.
